@@ -1,6 +1,6 @@
 FROM registry.fedoraproject.org/fedora-toolbox:latest
 
-ARG NAME=pythonbox
+ARG NAME=python_box
 
 LABEL name="$NAME" \
       summary="Fedora toolbox container" \
