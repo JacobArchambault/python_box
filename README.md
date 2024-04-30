@@ -2,7 +2,7 @@
 A Dockerfile and shell script for creating a Fedora Toolbx  with the following pre-installed:
 1. Python
 2. Pip - the package installer for Python
-3. micropipenv - a Python virtual environment management tool
+3. micropipenv - a Python dependency environment management tool
 4. VSCodium - the open-source version of Visual Studio Code
 
 ## What is this project?
