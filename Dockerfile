@@ -14,7 +14,7 @@ RUN dnf -y upgrade \
   && dnf -y install \
   python \ 
   pip \ 
-  pipenv \
+  micropipenv \
   codium --nodocs --setopt install_weak_deps=False \
   && dnf clean all
 
