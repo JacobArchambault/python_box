@@ -11,7 +11,7 @@ This project creates a Fedora toolbox with Python, Pip, micropipenv, and the VSC
 ## How do I run this? 
 To create the toolbox, open a terminal, `cd` into the root directory for this project and run `bash build.sh`. 
 
-Once the script has completed, you can run `toolbox enter codiumbox` to enter into the development environment. To open codium, type `codium` into the terminal, or `codium \path\to\your\directory` to open codium in a particular location.
+Once the script has completed, you can run `toolbox enter python_box` to enter into the development environment. To open VSCodium, type `codium` into the terminal, or `codium \path\to\your\directory` to open VSCodium in a particular location.
 
 ## Required dependencies
 To run this script, you'll need to have a development environment with bash, Toolbx, and Podman installed. 

@@ -15,6 +15,7 @@ RUN dnf -y upgrade \
   python \ 
   pip \ 
   micropipenv \
+  poetry \
   codium --nodocs --setopt install_weak_deps=False \
   && dnf clean all
 
