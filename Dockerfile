@@ -13,9 +13,8 @@ RUN printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\n
 RUN dnf -y upgrade \
   && dnf -y install \
   python \ 
-  pip \ 
-  micropipenv \
-  poetry \
+  pip \
+  postgresql-16.1 \
   codium --nodocs --setopt install_weak_deps=False \
   && dnf clean all
 
