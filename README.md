@@ -1,12 +1,12 @@
 # Python_box
 A Dockerfile and shell script for creating a Fedora Toolbx  with the following pre-installed:
 1. Python
-2. [`uv`](https://github.com/astral-sh/uv) - an extremely fast Python package installer written in rust, that can be used to run standard `pip` and `pip-tools` commands
+2. Pip - the package installer for Python
 3. PostgreSQL - a popular open-source SQL database engine
 4. VSCodium - the open-source version of Visual Studio Code
 
 ## What is this project?
-This project creates a Fedora toolbox with Python, uv, PostgreSQL, and the VSCodium IDE  pre-installed. As such, it provides a script to get you up and running with a bare bones development environment for writing Python projects. 
+This project creates a Fedora toolbox with Python, Pip, PostgreSQL, and the VSCodium IDE  pre-installed. As such, it provides a script to get you up and running with a bare bones development environment for writing Python projects. 
 
 ## How do I run this? 
 To create the toolbox, open a terminal, `cd` into the root directory for this project and run `bash build.sh`. 
