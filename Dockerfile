@@ -12,7 +12,6 @@ RUN dnf -y upgrade \
   && dnf -y install \
   python \ 
   pip \
-  postgresql-16.1 \
   codium --nodocs --setopt install_weak_deps=False \
   && dnf clean all
 
