@@ -11,7 +11,6 @@ LABEL name="$NAME" \
 RUN dnf -y upgrade \
   && dnf -y install \
   python \ 
-  pip \
-  codium --nodocs --setopt install_weak_deps=False \
+  pip --nodocs --setopt install_weak_deps=False \
   && dnf clean all
 
